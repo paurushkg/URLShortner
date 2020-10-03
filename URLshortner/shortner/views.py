@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from shortner.models import Url
 import random
+from rest_framework.views import APIView
 
 
 def index(request):

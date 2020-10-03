@@ -42,8 +42,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_swagger',
 
-    #local
-    'shortner'
+    #Local
+    'shortner',
+    'api',
 ]
 
 REST_FRAMEWORK = {'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'}

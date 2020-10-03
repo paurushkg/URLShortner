@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api_documentation', get_swagger_view(title='URL Shortner Documentation')),
     path('', include('shortner.urls')),
+    path('', include('api.urls')),
 ]
