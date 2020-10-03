@@ -1,4 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from shortner.models import Url
+import random
 
 
 def index(request):
