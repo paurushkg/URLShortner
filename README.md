@@ -1,4 +1,4 @@
-## URLShortner
+## URLShortner API
 This is a URLShortener Site made with help of Django
 
 ## Steps to setup this project locally
