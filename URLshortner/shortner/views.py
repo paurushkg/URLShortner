@@ -39,5 +39,6 @@ def shorten(request, id):
     link = ""
     for i in url:
         link = i.link
+    print(link)
 
     return redirect(link)
