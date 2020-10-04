@@ -9,6 +9,7 @@ This is a URLShortener Site made with help of Django
 ```
 $ git clone https://github.com/paurushofficial/URLShortner.git
 $ cd URLShortner
+for linux
 $ source .venv/bin/activate # activate virtual environment (.venv is the name, use any name as you like)
 $ pip install -r requirements.txt
 ```
